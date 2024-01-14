@@ -61,9 +61,14 @@ pip install opencv-python
 #下載Mediapipe
 pip install mediapipe
 ```
+## Arduino板環境設置
+**1.選擇要開發的軟體**
+- **vscode上的plaeform**
+- **arduino自家軟體**
+
+![螢幕擷取畫面 2024-01-14 144324](https://hackmd.io/_uploads/HJQNLMbF6.png)
+
 ## 心得
-
-
 | 第一週    | 第二週 | 第三週 |
 | -------- | -------- | -------- |
 | Text     | Text     | Text     |
@@ -72,12 +77,6 @@ pip install mediapipe
 | 第四週 | 第五週 | 第六週 |
 | -------- | -------- | -------- |
 | Text     | Text     | Text     |
-## Arduino板環境設置
-**1.選擇要開發的軟體**
-- **vscode上的plaeform**
-- **arduino自家軟體**
-
-![螢幕擷取畫面 2024-01-14 144324](https://hackmd.io/_uploads/HJQNLMbF6.png)
 
 
 
