@@ -50,8 +50,8 @@
 - [Arduino](https://www.arduino.cc/en/software)
 - [Python](https://www.python.org/downloads/)
 - [VS code](https://code.visualstudio.com/download)
-```py=
-#在終端機中輸入下列程式碼
+```python=
+#在終端機中輸入下列程式碼下載Oencv以及Oencv以及Mediapipe
 #將pip更新到最新版
 python -m pip install --upgrade pip
 #確保python是3.9以下的版本(推薦3.9)
