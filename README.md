@@ -26,6 +26,58 @@
 | **18**   |**測試執行並解決問題1.無問題的話找同學實驗2.有問題解決問題**|
 | **19**   |**完成學習統整報告1.Ptt介紹**|
 | **20**   |**完成學習統整報告1.Ptt介紹**|
+## 影音學習資源
+- [**arduino開發板與語言介紹**](https://youtu.be/B4T8hzO0IYc?si=GbqnM3WEhJtJ9zSy)
+- [**Python全教學**](https://youtu.be/Ob_LKCLxg2o?si=Wn2G7mLG5C-RaSAV)
+- [**Mediapipe影像辨識模型使用方式**](https://steam.oxxostudio.tw/category/python/ai/ai-mediapipe-finger-mosaic.html)
+- [**Opencv影像辨識教學**](https://www.youtube.com/watch?v=xjrykYpaBBM)
+## 網頁資源
+- [**Steam教學網**](https://steam.oxxostudio.tw/category/python/ai/ai-index.html)
+- [**iT邦:前置作業**](https://ithelp.ithome.com.tw/articles/10289544?sc=rss.qu)
+- [**認識手部追蹤系統**](https://medium.com/ai-blog-tw/deep-learning-%E5%85%A5%E9%96%80-%E8%AA%8D%E8%AD%98%E6%89%8B%E5%8B%A2%E8%BF%BD%E8%B9%A4%E7%B3%BB%E7%B5%B1-mediapipe-hand%E8%88%87oculus-hand-tracking-ec7df294b36b)
+- [M**ediapipe實戰(上)**](https://medium.com/jimmy-wang/mediapipe-hands-%E6%93%8D%E4%BD%9C%E8%AA%AA%E6%98%8E-%E4%B8%8A-836eb2e7ef15)
+- [**Mediapipe實戰(下)**](https://medium.com/jimmy-wang/mediapipe-hands-%E6%93%8D%E4%BD%9C%E8%AA%AA%E6%98%8E-%E5%AF%A6%E6%88%B0%E7%AF%87-%E4%B8%8B-e273bda92c48)
+- [**Opencv使用**](https://medium.com/jimmy-wang/opencv-%E5%9F%BA%E7%A4%8E%E6%95%99%E5%AD%B8%E7%AD%86%E8%A8%98-with-python-d780f571a57a)
+- [**使用python與arduino連接控制LED**](https://arbu00.blogspot.com/2016/07/pythonarduinoled.html)
+- [**使用python與arduino連接控制LED之GUI圖形介面**](https://arbu00.blogspot.com/2016/07/pythonarduinoledgui.html)
+- [**ESP32-CAM環境架設**](https://www.nmking.io/index.php/2022/11/08/462/#htoc-esp32-cam-esp32-cam-arduino-ide-environment-setup)
+- [**ESP32-CAM影像伺服器及臉部辨識教學原始檔Video Stream Server**](https://www.nmking.io/index.php/2022/11/03/429/#htoc-)
+
+
+## 推薦書籍
+- [**一本精通：OpenCV 與 AI 影像辨識**](https://www.books.com.tw/products/0010956162)
+## 資源下載
+- [Arduino](https://www.arduino.cc/en/software)
+- [Python](https://www.python.org/downloads/)
+- [VS code](https://code.visualstudio.com/download)
+```py=
+#在終端機中輸入下列程式碼
+#將pip更新到最新版
+python -m pip install --upgrade pip
+#確保python是3.9以下的版本(推薦3.9)
+python --version 
+#下載Opencv
+pip install opencv-python
+#下載Mediapipe
+pip install mediapipe
+```
+## 心得
+
+
+| 第一週    | 第二週 | 第三週 |
+| -------- | -------- | -------- |
+| Text     | Text     | Text     |
+
+
+| 第四週 | 第五週 | 第六週 |
+| -------- | -------- | -------- |
+| Text     | Text     | Text     |
+## Arduino板環境設置
+**1.選擇要開發的軟體**
+- **vscode上的plaeform**
+- **arduino自家軟體**
+
+![螢幕擷取畫面 2024-01-14 144324](https://hackmd.io/_uploads/HJQNLMbF6.png)
 
 
 
