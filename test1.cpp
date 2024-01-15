@@ -21,5 +21,5 @@ int main() {
         a = (i / 2);
         cout << lit[a] << endl;
     }  
-    
+    cout<<"123";
 }
