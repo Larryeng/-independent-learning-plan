@@ -20,6 +20,5 @@ int main() {
     else if (i/ 2 != 0) {
         a = (i / 2);
         cout << lit[a] << endl;
-    }  
-    cout<<"123";
+    }
 }
