@@ -34,15 +34,12 @@
 | **19**   |**完成學習統整報告1.Ptt介紹**|
 | **20**   |**完成學習統整報告1.Ptt介紹**|
 ## 影音學習資源
-:::spoiler
 - [**arduino開發板與語言介紹**](https://youtu.be/B4T8hzO0IYc?si=GbqnM3WEhJtJ9zSy)
 - [**Python全教學**](https://youtu.be/Ob_LKCLxg2o?si=Wn2G7mLG5C-RaSAV)
 - [**Mediapipe影像辨識模型使用方式**](https://steam.oxxostudio.tw/category/python/ai/ai-mediapipe-finger-mosaic.html)
 - [**Opencv影像辨識教學**](https://www.youtube.com/watch?v=xjrykYpaBBM)
 - [**為什麼LED要用220Ω?**](https://yehnan.blogspot.com/2012/03/arduinoled220-ohm.html)
-:::
 ## 網頁資源
-:::spoiler
 - [**Steam教學網**](https://steam.oxxostudio.tw/category/python/ai/ai-index.html)
 - [**iT邦:前置作業**](https://ithelp.ithome.com.tw/articles/10289544?sc=rss.qu)
 - [**認識手部追蹤系統**](https://medium.com/ai-blog-tw/deep-learning-%E5%85%A5%E9%96%80-%E8%AA%8D%E8%AD%98%E6%89%8B%E5%8B%A2%E8%BF%BD%E8%B9%A4%E7%B3%BB%E7%B5%B1-mediapipe-hand%E8%88%87oculus-hand-tracking-ec7df294b36b)
@@ -54,11 +51,8 @@
 - [**ESP32-CAM環境架設**](https://www.nmking.io/index.php/2022/11/08/462/#htoc-esp32-cam-esp32-cam-arduino-ide-environment-setup)
 - [**ESP32-CAM影像伺服器及臉部辨識教學原始檔Video Stream Server**](https://www.nmking.io/index.php/2022/11/03/429/#htoc-)
 - [**ESP32 D1 R32控制LED**](https://www.ezlopi.com/tutorials-and-kits/led-control-using-esp32-wemos-d1-r32/)
-:::
 ## 推薦書籍
-:::spoiler
 - [**一本精通：OpenCV 與 AI 影像辨識**](https://www.books.com.tw/products/0010956162)
-:::
 ## 資源下載
 - [**Arduino(但我用的不是這個)**](https://www.arduino.cc/en/software)
 - [**Python**](https://www.python.org/downloads/)
@@ -76,7 +70,6 @@ pip install mediapipe
 ```
 ## 程式碼
 ### 主要影像辨識python程式碼
-:::spoiler
 ```python=
 #Arduino接線8,9,10,11,12+左邊GND第二個
 import cv2
@@ -119,9 +112,7 @@ video.release()
 cv2.destroyAllWindows()
 
 ```
-:::
 ### 處理影像傳輸資料並且轉成輸出資料的py code
-:::spoiler
 ```python=
 import pyfirmata
 
@@ -174,9 +165,7 @@ def led(fingerUp):
         led_4.write(1)
         led_5.write(1)
 ```
-:::
 ### 接收py傳輸過來的辨識資料的c++ code
-:::spoiler
 ```cpp=
 #include <Arduino.h>
 /*
@@ -1005,7 +994,6 @@ void loop()
 }
 
 ```
-:::
 ## Arduino板環境設置
 **1.選擇要開發的軟體**
 - **vscode上的platform(這是我此次的選擇)**
@@ -1013,15 +1001,12 @@ void loop()
 
 ![螢幕擷取畫面 2024-01-14 144324](https://hackmd.io/_uploads/HJQNLMbF6.png)
 ## Debug日記
-:::spoiler
 - 1/14建置arduino環境時遇到 [xtensa-esp32-elf-g++": file does not exist error]錯誤-未解決
 - 1/19使用Python成功連接ESP32板(wemose R1 Z32)
 - 1/26將影像辨識結合ESP32時發生了建至錯誤
 - 2/29Ardiono IDE環境始終不能成功上傳至ESP32板上面
 - 3/2利用platform加上Arduino UNO成功解決
-:::
 ## 進度
-:::spoiler
 - 把arduino1版的運作功能大致學習(影音學習1.看到第十集)
 - 開始日2024/1/22 Mon
 硬體:ESP32 wemos d1 r32
@@ -1036,4 +1021,4 @@ void loop()
 跟同學借arduino版
 - 2024/3/2
 成功使用Arduino UNO完成影像辨識控制LED燈量亮滅
-:::
+### 資料來源 : Arduino官方文件、YouTuberChannel : KNOWLEDGE DOCTOR
